@@ -1,0 +1,9 @@
+/home/gic-sun-ousaphea/oslab-work/lab1/task2_files
+bridge_renamed.txt
+ocean.txt
+ocean_copy.txt
+bridge_renamed.txt
+ocean.txt
+ocean_copy.txt
+bridge_renamed.txt
+ocean.txt
