@@ -1,0 +1,25 @@
+Error: cat: 'reports/travel claims.txt': No such file or directory
+Fix: ../../reports/travel claims.txt
+Core 2 - Commands that worked
+
+1. Move first report using a relative path:
+mv -- "$file1" ../reports/
+
+2. Move second report using absolute paths:
+mv -- "$OSLAB_WORKSPACE/lab2/incoming/$file2" "$OSLAB_WORKSPACE/lab2/reports/"
+
+3. Copy both reports into Sales:
+cp -- "reports/$file1" "reports/$file2" "TechCorp/$owner/"
+
+4. Copy first report into archive with a new name:
+cp -- "reports/$file1" "TechCorp/$owner/archive/first-original.txt"
+
+5. Read Sales report from Engineering using relative path:
+cat "../$owner/$file1"
+
+6. Read Sales report from Engineering using absolute path:
+cat "$OSLAB_WORKSPACE/lab2/TechCorp/$owner/$file1"
+
+Decision:
+I used relative paths when copying both reports into Sales.
+Absolute paths would be better when working from different directories because they always point to the same location.
