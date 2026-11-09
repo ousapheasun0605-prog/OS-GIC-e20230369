@@ -1,0 +1,4 @@
+/usr/bin/mc
+drwxr-xr-x 2 root root 4096 Oct 29 11:17 /etc/mc
+drwxr-xr-x 2 root root 4096 Oct 29 11:23 /etc/mc
+ls: cannot access '/etc/mc': No such file or directory
