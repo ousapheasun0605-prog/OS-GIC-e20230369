@@ -1,0 +1,20 @@
+  300  git push origin main
+  301  clear
+  302  cd ~/os-gic-e20230369
+  303  mkdir -p os-class-activities-e20230369/activity2/{task1,task2,task3_shm,task4_mq,screenshots}
+  304  cd os-class-activities-e20230369/activity2
+  305  pwd
+  306  ls -la
+  307  nano README.md
+  308  cd task1
+  309  nano forkchild.c
+  310  gcc -Wall -Wextra -o forkchild forkchild.c
+  311  ls -l
+  312  ./forkchild > result_forkchild.txt 2>&1
+  313  cat result_forkchild.txt
+  314  cd ~/os-gic-e20230369/os-class-activities-e20230369/activity2
+  315  ./task1/forkchild
+  316  cd ~/os-gic-e20230369/os-class-activities-e20230369/activity2
+  317  ./task1/forkchild
+  318  cd ~/os-gic-e20230369/os-class-activities-e20230369/activity2/task1
+  319  history | tail -n 20 > command_used_forkchild.txt

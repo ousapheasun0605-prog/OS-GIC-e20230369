@@ -1,0 +1,20 @@
+  325  gcc -Wall -Wextra -o shm-producer shm-producer.c -lrt
+  326  gcc -Wall -Wextra -o shm-consumer shm-consumer.c -lrt
+  327  ls -l
+  328  ./shm-producer
+  329  ./shm-consumer > result-shm-ipc.txt
+  330  cat result-shm-ipc.txt
+  331  clear
+  332  gcc -Wall -Wextra -o shm-producer shm-producer.c -lrt
+  333  gcc -Wall -Wextra -o shm-consumer shm-consumer.c -lrt
+  334  ./shm-producer
+  335  ./shm-consumer > result-shm-ipc.txt
+  336  cat result-shm-ipc.txt
+  337  gcc -Wall -Wextra -o shm-producer shm-producer.c -lrt
+  338  gcc -Wall -Wextra -o shm-consumer shm-consumer.c -lrt
+  339  ./shm-producer
+  340  ./shm-consumer > result-shm-ipc.txt
+  341  cat result-shm-ipc.txt
+  342  history | tail -n 20 > command_used_shm.txt
+  343  ls -l
+  344  history | tail -n 20 > command_used_shm.txt

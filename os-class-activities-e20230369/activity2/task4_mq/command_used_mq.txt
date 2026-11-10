@@ -1,0 +1,20 @@
+  343  ls -l
+  344  history | tail -n 20 > command_used_shm.txt
+  345  ls -l
+  346  cd ~/os-gic-e20230369/os-class-activities-e20230369/activity2/task4_mq
+  347  pwd
+  348  nano common.h
+  349  nano sender.c
+  350  nano receiver.c
+  351  gcc -Wall -Wextra -o sender sender.c -lrt
+  352  gcc -Wall -Wextra -o receiver receiver.c -lrt
+  353  ls -l
+  354  nano receiver.c
+  355  gcc -Wall -Wextra -o receiver receiver.c -lrt
+  356  ./sender
+  357  ./receiver
+  358  gcc -Wall -Wextra -o sender sender.c -lrt
+  359  gcc -Wall -Wextra -o receiver receiver.c -lrt
+  360  ./sender
+  361  ./receiver
+  362  history | tail -n 20 > command_used_mq.txt
